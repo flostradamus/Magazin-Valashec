@@ -1,6 +1,6 @@
 body {
 
-    max-width: 1125px;
+    max-width: 1366px;
     margin: auto;
 }
 
@@ -19,13 +19,43 @@ header{
 #descriptionText{
     width: 400px;
 }
+.productActionBlock{
+    width:200px;
+    
+    display: inline-block;
+}
+.product-img{
+    height: 184px;
+    padding:10px;
+}
+.product-price{
+    border-radius:0;
+    margin-top:5px;
+    
+}
+.pr-action,.nx-action{
+    background-image: none;
+    position: relative;
+}
+.pr-action:after
+{
+    content: '<';
+    font-size: 55px;
+    color: red;
+}
+.nx-action:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
 @media screen and (max-width: 575px) {
 #search{
     position: absolute!important;
     top: 0!important;
     right: 0!important;
     padding-bottom: 10px;
-    background-color: #ffc107!important;
+    background-color: white!important;
 }
 header{
 margin-top: 40px!important;

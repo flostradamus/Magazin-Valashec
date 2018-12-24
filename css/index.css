@@ -12,6 +12,13 @@ body {
 header{
     margin-top: 5px;
 }
+#subscribe{
+    position:absolute;
+    transform: translateY(-50%);top:50%;
+}
+#descriptionText{
+    width: 400px;
+}
 @media screen and (max-width: 575px) {
 #search{
     position: absolute!important;
@@ -24,4 +31,19 @@ header{
 margin-top: 40px!important;
 }
 
+}
+@media screen and (max-width: 770px) {
+#subscribe{
+    position: relative;
+}
+#subscribeBlock{
+    margin:0 auto;
+
+}
+#descriptionText{
+    width:100%;
+}
+#descriptionHeader{
+    text-align: center;
+}
 }

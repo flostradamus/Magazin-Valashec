@@ -49,6 +49,9 @@ header{
   font-size: 55px;
   color: red;
 }
+.imgSocialNetwork{
+    width: 40px;
+}
 @media screen and (max-width: 575px) {
 #search{
     position: absolute!important;

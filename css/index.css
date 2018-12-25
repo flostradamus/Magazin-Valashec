@@ -28,7 +28,7 @@ header{
     height: 184px;
     padding:10px;
 }
-.product-price{
+.product-action{
     border-radius:0;
     margin-top:5px;
     
@@ -52,6 +52,66 @@ header{
 .imgSocialNetwork{
     width: 40px;
 }
+.actionImg{
+position: absolute;
+left: -13%;
+top: 0;
+width: 90px;
+}
+#greyContainer{
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    background-color:rgb(128,128,128,0.7);
+    z-index: 99;
+    top: 0%;
+display: none;
+}
+.basket{
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    top: 50%;
+    height: 100%;
+    overflow: scroll;
+    max-height:  490px;
+}
+.inputAddAndDown{
+    border-radius: 0;
+    width: 37px;
+}
+.buttonDown{
+    border-radius: 0;
+    width: 37px;
+}
+.buttonAdd{
+    border-radius: 0;
+
+}
+.addAndDownBlock{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.product-basket-price{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);   
+}
+.basketBlockProduct{
+    width: 360px;
+}
+.basketImgProduct{
+    width: 100px;
+}
+@media screen and (max-width: 360px) {
+
+.basketBlockProduct{
+    width: 310px;
+}
+}
 @media screen and (max-width: 575px) {
 #search{
     position: absolute!important;
@@ -59,6 +119,7 @@ header{
     right: 0!important;
     padding-bottom: 10px;
     background-color: white!important;
+    z-index: 2;
 }
 header{
 margin-top: 40px!important;

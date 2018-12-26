@@ -7,6 +7,7 @@ body {
 .menu-font-size{
     font-size: 16px;
     color: white;
+    cursor: pointer;
 }
 
 header{
@@ -67,7 +68,7 @@ width: 90px;
     top: 0%;
 display: none;
 }
-.basket{
+#basket{
     display: none;
     position: fixed;
     z-index: 100;
@@ -105,6 +106,12 @@ display: none;
 }
 .basketImgProduct{
     width: 100px;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+.sub-category{
+    margin-top: 5px;
 }
 @media screen and (max-width: 360px) {
 
